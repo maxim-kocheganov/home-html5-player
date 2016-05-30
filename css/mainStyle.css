@@ -1,0 +1,110 @@
+/*
+.container {
+  position: relative;
+  height: 14rem;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left:30%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  top: 16rem;
+  
+}
+*/
+
+/*.main_icon {
+   position: absolute;
+   top: 1.3em;
+   left: -2em;
+   background-image: url(pic/music-player1.png);
+}
+*/
+.main_icon {
+   position: absolute;
+   top: 1.3em;
+   left: -2em;
+   background-image: url(pic/music-player1.png);
+}
+
+.icon_round_arrows {
+    position: relative;
+    float: none;
+    background-repeat: space;
+    background-image: url(../pic/refresh.png);
+    top: 32px;
+    left: -32px;
+    height: 64px;
+    width: 64px;
+}
+
+.container{
+    height: 40em;    
+    border-radius: 5px;
+    background-color: rgba(240,240,240,255);
+}
+
+.vertical-center-block{
+    width:0px;
+    background-color:#ccc;
+}
+
+.innerContainer {
+    margin: 1em;
+    margin-top: 5em;
+    position: absolute;
+    float: left;
+}
+
+.smallContainer{
+    margin-top: 1px;
+    height: 4em;    
+    border-radius: 5px;
+    background-color: rgba(230,230,230,255);
+}
+
+.leftSquareButton{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.buttonSquare{
+    padding:10px 10px;
+}
+
+.iconPlay {
+    position: relative;
+    float: none;
+    background-repeat: space;
+    background-image: url(../pic/play-button.png);
+    left: 3px;
+    height: 32px;
+    width: 32px;
+}
+
+.iconPause {
+    position: relative;
+    float: none;
+    background-repeat: space;
+    background-image: url(../pic/pause.png);
+    height: 32px;
+    width: 32px;
+}
+
+.liMusic {
+    list-style-image: url(../pic/music.png);
+    
+}
+
+.liFolder {
+    list-style-image: url(../pic/folder.png);    
+}
+
+.liFolderUp {
+    list-style-image: url(../pic/arrow.png);    
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Home HTML5 player</title>
+        <meta charset="windows-1251">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- normalize.css v4.1.1 -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- This project animation -->
+        <link rel="stylesheet" href="css/animation.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- This project fixing css -->
+        <link rel="stylesheet" href="css/mainStyle.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- This project main script -->
+        <script src="mainscript.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar  ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-edit fa-fw"></i>Home HTML5 player</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#"><i class="fa fa-edit fa-fw"></i>Main</a></li>
+          <li><a href="javascript:alert('Home HTML5 player - типа сдать надо')">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+<div class="container">
+    <div id="spinIcon" class="icon">
+         <div class="row">
+               <div class="center-block vertical-center-block">
+                    <div class="center spining icon_round_arrows"></div>
+               </div>
+        </div>
+    </div>
+    <div id="mainContent">    
+        <div class="innerContainer">    
+            <audio id="mainAudio"></audio>
+        </div>
+        <div id="musicList">
+            <ul>
+                <li class="liMusic"><h3><a href="#">Loading error</a></h3></li>            
+            </ul>
+        </div>
+    </div>
+</div>
+    
+<div class="container smallContainer">
+    <div class="row">
+        <div class="leftSquareButton">
+            <button type="button" class="buttonSquare" onclick="changeState(nextState)">
+                <div id="playerImg"></div>
+            </button> 
+        </div>
+        <div id="bottomPlace">
+            
+        </div>
+        
+    </div>
+</div>
+
+<script> // Attach this project main client script, because I have only 2 days to make interface
+$(document).ready(start);
+</script>
+</body>
+</html>
